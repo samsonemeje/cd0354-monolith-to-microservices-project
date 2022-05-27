@@ -84,3 +84,31 @@ Launch the frontend app locally.
     ```
 4. `set_env.sh` is really for your backend application. Frontend applications have a different notion of how to store configurations. Configurations for the application endpoints can be configured inside of the `environments/environment.*ts` files.
 5. In `set_env.sh`, environment variables are set with `export $VAR=value`. Setting it this way is not permanent; every time you open a new terminal, you will have to run `set_env.sh` to reconfigure your environment variables. To verify if your environment variable is set, you can check the variable with a command like `echo $POSTGRES_USERNAME`.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+![build-succeed](https://user-images.githubusercontent.com/22004327/170793145-1e2a3bc0-fefe-4669-999d-b8fa151890ff.png)![deployments](https://user-images.githubusercontent.com/22004327/170793151-5db6ffef-b826-4236-8b4c-cd19176db652.png)
+![final](https://user-images.githubusercontent.com/22004327/170793160-2705f84c-cf32-4950-bd7e-fd0b6e84e4ce.png)
+![frontend-v6](https://user-images.githubusercontent.com/22004327/170793163-296c01bb-39b3-4ae7-b407-52bf856b21da.png)
+![gitlab-build](https://user-images.githubusercontent.com/22004327/170793167-85258a12-326e-4df8-bd80-b82dd33be0a8.png)
+![images-up](https://user-images.githubusercontent.com/22004327/170793176-88b48fef-e7c7-49e2-adcf-104edb172a42.png)
+![kubernetes](https://user-images.githubusercontent.com/22004327/170793192-74c51705-3832-4d5e-8a9e-84fd89d40261.png)
+![logs](https://user-images.githubusercontent.com/22004327/170793216-65f84f71-c0c2-41da-a540-754834e116e8.png)
+![logs-running](https://user-images.githubusercontent.com/22004327/170793225-d364982e-cbe4-4bf8-824d-7dd464bac6b3.png)
+![services](https://user-images.githubusercontent.com/22004327/170793240-7b391f4f-d9d2-4d56-9c91-3a3bf6975b02.png)
+![together](https://user-images.githubusercontent.com/22004327/170793247-c94b48f9-fe95-438e-a47f-cf6113e1fc82.png)
+![v6](https://user-images.githubusercontent.com/22004327/170793256-89f8209c-9f87-433b-96d9-601d26bd98be.png)
+![working](https://user-images.githubusercontent.com/22004327/170793260-409e1b1a-054e-47bf-b98b-5915d1844412.png)
+
+
